@@ -1,0 +1,65 @@
+.itemCard {
+    position: relative;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+}
+
+.imageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 220px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.image {
+    display: block;
+    width: 300px;
+    height: 220px;
+}
+
+.countWrapper{
+    display: flex;
+    align-items: center;
+}
+.buttonIncrement{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../../images/minus.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.buttonDecrement{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../../images/plus.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.count{
+    width: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+    border: 1px solid #d2d2d2;
+    border-radius: 8px;
+    
+}
+.buttonDelete{
+    position: absolute;
+    top: 1%;
+    left: 94%;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: none;
+    background-image: url('../../images/cross-mark.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

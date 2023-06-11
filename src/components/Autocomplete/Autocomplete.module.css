@@ -1,0 +1,43 @@
+.root{
+ position: relative;
+ width: 700px;
+}
+.input{
+box-sizing: border-box;    
+width: 700px;
+padding: 10px 15px;
+border: 2px solid #FFC244;
+border-radius: 7px;
+font-size: 18px;
+font-weight: 500;
+}
+
+.input:focus{
+    border-color: blue;
+    outline: none;
+}
+
+.suggestions{
+    box-sizing: border-box;
+    position: absolute;
+    top: 43px;
+    left: -39px;
+    transform: translate(39px);
+    background-color: #FFF;
+    border: 2px solid rgb(34, 34, 34);
+    width: 700px;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.listItem{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.listItem:hover{
+    background-color: #efefef;
+}

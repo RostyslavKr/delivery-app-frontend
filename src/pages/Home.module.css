@@ -1,0 +1,7 @@
+.wrapperHomePage{
+    margin: 20px auto ;
+    width: 500px;
+    height: 500px;
+    background-image: url('../../src/images/home-page-delivery.png');
+    background-repeat: no-repeat;
+}

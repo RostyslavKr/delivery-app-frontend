@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+}
+
+.geoLocationButton{
+    position: absolute;
+    top: 60%;
+    left: 93%;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    background-image: url('../../images/my-location.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.calculateRouteButton{
+    position: absolute;
+    top: 70%;
+    left: 83%;
+    z-index: 10;
+    background-color: #27ae60;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+}
+.itemInfoDelivery{
+    padding: 0 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%; 
+    display: inline-block;
+    background-color: #fff;
+    z-index: 10;
+}
