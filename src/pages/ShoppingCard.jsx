@@ -65,8 +65,11 @@ const ShoppingCard = ({ dish, deleteDish, currentCoordinates }) => {
       totalCost: totalPrice,
     });
 
-    instance
-      .post('/delivery/order', order)
+    axios
+      .post(
+        'https://delivery-app-backend-l8fw.onrender.com/api/delivery/order',
+        order
+      )
       .then(response => {
         console.log(response);
         setStatusOrder(response.status);

@@ -30,8 +30,8 @@ const App = () => {
   }, [dish]);
 
   useEffect(() => {
-    
-      instance.get('/delivery/shops')
+    axios
+      .get('https://delivery-app-backend-l8fw.onrender.com/api/delivery/shops')
       .then(response => {
         const shops = response.data.map(shop => ({
           ...shop,
